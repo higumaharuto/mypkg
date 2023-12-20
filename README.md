@@ -85,8 +85,47 @@ Ctrl+Cを入力すると終了します。
 ## talk_listen.launch.py  
 * 端末1  
 ```  
-  
-```  
+$ ros2 launch mypkg talk_listen.launch.py  
+[INFO] [launch]: All log files can be found below /home/higuma/.ros/log/2023-12-21-04-35-48-332105-HiBear8610-5627  
+[INFO] [launch]: Default logging verbosity is set to INFO  
+[INFO] [talker-1]: process started with pid [5628]  
+[INFO] [listener-2]: process started with pid [5630]  
+[listener-2] [INFO] [1703100949.072531815] [listener]: Listen: 0  
+[listener-2] [INFO] [1703100949.559222866] [listener]: Listen: 1  
+[listener-2] [INFO] [1703100950.060007871] [listener]: Listen: 2  
+[listener-2] [INFO] [1703100950.559930322] [listener]: Listen: 3  
+[listener-2] [INFO] [1703100951.059893784] [listener]: Listen: 4  
+[listener-2] [INFO] [1703100951.558489960] [listener]: Listen: 5  
+[listener-2] [INFO] [1703100952.059958933] [listener]: Listen: 6  
+[listener-2] [INFO] [1703100952.558618479] [listener]: Listen: 7  
+[listener-2] [INFO] [1703100953.058733515] [listener]: Listen: 8  
+[listener-2] [INFO] [1703100953.558680607] [listener]: Listen: 9  
+[listener-2] [INFO] [1703100954.060043516] [listener]: Listen: 10  
+[listener-2] [INFO] [1703100954.559093037] [listener]: Listen: 11  
+[listener-2] [INFO] [1703100955.058720087] [listener]: Listen: 12  
+[listener-2] [INFO] [1703100955.559313026] [listener]: Listen: 13  
+[listener-2] [INFO] [1703100956.058817465] [listener]: Listen: 14  
+[listener-2] [INFO] [1703100956.558704345] [listener]: Listen: 15  
+[listener-2] [INFO] [1703100957.059597382] [listener]: Listen: 16  
+[listener-2] [INFO] [1703100957.560937831] [listener]: Listen: 17  
+[listener-2] [INFO] [1703100958.060128164] [listener]: Listen: 18  
+[listener-2] [INFO] [1703100958.560019931] [listener]: Listen: 19  
+[listener-2] [INFO] [1703100959.059887932] [listener]: Listen: 20  
+[listener-2] [INFO] [1703100959.560232976] [listener]: Listen: 21  
+[listener-2] [INFO] [1703100960.059045630] [listener]: Listen: 22  
+[listener-2] [INFO] [1703100960.560141689] [listener]: Listen: 23  
+[listener-2] [INFO] [1703100961.059141876] [listener]: Listen: 24  
+[listener-2] [INFO] [1703100961.560028412] [listener]: Listen: 25  
+[listener-2] [INFO] [1703100962.059742883] [listener]: Listen: 26  
+[listener-2] [INFO] [1703100962.559866807] [listener]: Listen: 27  
+[listener-2] [INFO] [1703100963.060181918] [listener]: Listen: 28  
+[listener-2] [INFO] [1703100963.559978765] [listener]: Listen: 29  
+[listener-2] [INFO] [1703100964.058540950] [listener]: Listen: 30  
+[listener-2] [INFO] [1703100964.560075946] [listener]: Listen: 31  
+[listener-2] [INFO] [1703100965.060088350] [listener]: Listen: 32  
+[listener-2] [INFO] [1703100965.560074777] [listener]: Listen: 33  
+```
+Ctrl+Cを入力すると終了します。  
 
 # 必要なソフトウェア  
 * ubuntu-22.04    
