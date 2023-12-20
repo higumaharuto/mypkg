@@ -36,7 +36,7 @@ $ ( cd ~/ros2_ws && colcon build )
   
 ## talk_listen.launch.py  
 * talker.pyとlistener.pyを一度に立ち上げるノード。  
- * 複数のノードを一度に立ち上げる  
+     * 複数のノードを一度に立ち上げる  
   
 # 実行例  
 ## talker.pyとlistener.py
