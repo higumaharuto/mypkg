@@ -45,8 +45,7 @@ $ ( cd ~/ros2_ws && colcon build )
 $ ros2 run mypkg talker  
 (何も表示されません。)
 ``` 
-   
-     * 何も表示されません。  
+何も表示されません。  
 
 * 端末2  
 ```  
