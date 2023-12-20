@@ -43,7 +43,9 @@ $ ( cd ~/ros2_ws && colcon build )
 * 端末1  
 ```  
 $ ros2 run mypkg talker  
-```  
+(何も表示されません。)
+``` 
+   
      * 何も表示されません。  
 
 * 端末2  
@@ -80,8 +82,8 @@ $ ros2 run mypkg listener
 [INFO] [1703099624.819895413] [listener]: Listen: 31  
 [INFO] [1703099625.319678311] [listener]: Listen: 32  
 [INFO] [1703099625.819574864] [listener]: Listen: 33  
+(Ctrl+Cを入力すると終了します。)
 ```  
-     * Ctrl+Cを押すまで表示し続けます。  
 ## talk_listen.launch.py  
 * 端末1  
 ```  
