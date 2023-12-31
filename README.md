@@ -3,23 +3,13 @@
   
 [![test](https://github.com/higumaharuto/ros2_/actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/ros2_/actions/workflows/test.yml)  
   
-## ROS2のインストール方法  
-* 以下の手順でコマンドの入力をします。  
-```  
-$ git clone https://github.com/ryuichiueda/ros2_setup_scripts  
-$ cd ros2_setup_scripts  
-$ ./setup.bash  
-$ source ~/.bashrc  
-```  
-* インストール後、初期状態のパッケージの作成をする。  
-```  
-$ cd ~/ros2_ws/src/  
-$ ros2 pkg create mypkg --build-type ament_python  
-```  
+## インストール方法  
   
-* 以下のコマンドでこのリポジトリを手元にコピーしてください。  
+* ROS2がインストールされてない方は各自インストールお願い致します。 
+  
+* インストールされている方は以下のコマンドでこのリポジトリを手元にコピーしてください。  
 ```  
-$ git clone git@github.com:higumaharuto/ros2_.git  
+$ git clone https://git@github.com:higumaharuto/ros2_.git  
 ```  
   
 * 最後にビルドしてください。  
@@ -35,7 +25,7 @@ $ ( cd ~/ros2_ws && colcon build )
 * サブスクライバーを持つノード。 トピック/countupからメッセージをもらって表示  
   
 ## talk_listen.launch.py  
-* talker.pyとlistener.pyを一度に立ち上げるノード。  
+* talker.pyとlistener.pyを一度に立ち上げるものであり、ノードを操作・管理するようなもの。  
      * 複数のノードを一度に立ち上げる  
   
 # 実行例  
@@ -131,7 +121,7 @@ Ctrl+Cを入力すると終了します。
 * Ubuntu 22.04  
 
 # テスト環境  
-* ROS2  
+* ROS2 Humble  
 
 ## 著作権・ライセンス  
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。  
