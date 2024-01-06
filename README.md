@@ -1,4 +1,4 @@
-# ros2_
+# mypkg
 2023年度後期ロボットシステム学で使用したros2のリポジトリです
   
 [![test](https://github.com/higumaharuto/ros2_/actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/ros2_/actions/workflows/test.yml)  
