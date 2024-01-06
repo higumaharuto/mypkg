@@ -1,7 +1,7 @@
 # mypkg
-2023年度後期ロボットシステム学で使用したros2のリポジトリです
+2023年度後期ロボットシステム学で使用したros2のリポジトリです。  
   
-[![test](https://github.com/higumaharuto/ros2_/actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/ros2_/actions/workflows/test.yml)  
+[![test](https://github.com/higumaharuto/mypkg/_actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/mypkg/actions/workflows/test.yml)  
   
 ## インストール方法  
   
@@ -22,11 +22,11 @@ $ ( cd ~/ros2_ws && colcon build )
 * パブリッシャーを持つノード。数字をカウントアップし、トピック/countupを通じて16ビット符号つき整数であるメッセージの型で送信する。  
   
 ## listener.py  
-* サブスクライバーを持つノード。 トピック/countupからメッセージをもらって表示  
+* サブスクライバーを持つノード。 トピック/countupからメッセージをもらって表示。  
   
 ## talk_listen.launch.py  
 * talker.pyとlistener.pyを一度に立ち上げるものであり、ノードを操作・管理するようなもの。  
-     * 複数のノードを一度に立ち上げる  
+     * 複数のノードを一度に立ち上げるもの。  
   
 # 実行例  
 ## talker.pyとlistener.py
