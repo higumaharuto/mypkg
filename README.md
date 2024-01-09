@@ -9,7 +9,7 @@
   
 * インストールされている方は以下のコマンドでこのリポジトリを手元にコピーしてください。  
 ```  
-$ git clone https://git@github.com:higumaharuto/ros2_.git  
+$ git clone https://git@github.com:higumaharuto/mypkg.git  
 ```  
   
 * 最後にビルドしてください。  
